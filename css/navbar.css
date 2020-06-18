@@ -1,0 +1,88 @@
+.nav
+{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 98%;
+	background-color: #ebd3d3;
+	border-radius: 0px;
+	transition: 0.3s;
+	padding: 30px 1%;
+	z-index: 100;
+}
+
+.nav a
+{
+	display: block;
+	color: #c73484;
+	padding: 7px 13px;
+	margin: 5px;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-family: 'Patrick Hand', cursive;
+	float: left;
+}
+
+.nav .page
+{
+	float: right;
+}
+
+.nav #name
+{
+	/*left: 0;
+	display: inline-block;*/
+	font-family: 'Lobster', cursive;
+}
+
+.nav a.active
+{
+	background-color: #c73484;
+	border-radius: 10px;
+	color: white;
+}
+
+.nav a:hover
+{
+	color: white;
+	background-color: #c785a9;
+	border-color: black;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.nav .icon
+{
+	display: none;
+}
+
+@media screen and (max-width: 600px)
+{
+	.nav .page
+	{
+		display: none;
+		float: none;
+	}
+	.nav a.icon
+	{
+		float: right;
+		display: block;
+	}
+	.nav.compress .icon
+	{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.nav.compress a, .nav.compress .page
+	{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	/*.nav.compress .page
+	{
+		float: none;
+	}*/
+}

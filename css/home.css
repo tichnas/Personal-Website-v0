@@ -1,0 +1,38 @@
+body
+{
+	background-image: linear-gradient(to top, rgba(255,252,252,0.3), rgba(255,252,252,0.3)), url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height : 100vh;
+	width: auto;
+}
+
+h1, h2
+{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	font-size: 4rem;
+	color: #c73484;
+	padding: 25px;
+	font-family: 'Caveat', cursive;
+}
+
+h2
+{
+	font-size: 1.75rem;
+}
+
+#point
+{
+	animation: blink 1s infinite;
+}
+
+@keyframes blink{
+	0%{ visibility: visible; }
+	49%{ visibility: hidden; }
+	50%{ visibility: hidden; }
+	99%{ visibility: hidden; }
+	100%{ visibility: visible; }
+}

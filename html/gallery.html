@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gallery | tichnas</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/navbar.css">
+	<link rel="stylesheet" href="../css/gototop.css">
+	<link rel="stylesheet" href="../css/slideshow.css">
+	<link rel="stylesheet" href="../css/card.css">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Kalam|Lobster|Patrick+Hand&display=swap" rel="stylesheet">
+	<script src="../js/script.js"></script>
+	<script src="../js/slideshow.js"></script>
+</head>
+<body>
+
+<button onclick="gotop()" id="topbutton" title="Go to Top">^</button>
+<div class="nav" id="mynav">
+	<a id="name" href="../index.html">Sanchit Arora</a>
+	<a href="javascript:void(0);" class="icon" onclick="nav()">
+		&#9776;
+	</a>
+	<div class="page">
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+		<a href="gallery.html" class="active">Gallery</a>
+	</div>
+</div>
+
+<div class="main">
+
+<div class="slideshow">
+	<h2>My Photo Gallery</h2>
+	<img src="../img/1.png" onclick="changeimage(0)">
+	<div class="load"><p>Loading...</p></div>
+	<br>
+	<span class="dot active" onclick="changeimage(1)"></span>
+</div>
+<!-- <div class="gallery">
+	<div class="card">
+		<img class="baseimg" src="https://lh3.googleusercontent.com/Gkwq2LcvFMRKCBZP0pUx7wXMyYNxLgX860cO0C4zqV8pjlR-Pq3gDuvoaqW1tWJYeUjP9kjw6_yXtcPLkLcmRkVZBsLvrH0OcQAqjvjnmb1Wp5zxpVsjoPKNO91CRXeQgHbsOhLBrYE=w2400">
+	</div>
+	<div class="card">
+		<img class="baseimg" src="https://lh3.googleusercontent.com/N5Q8mZFWt4hAe7cc-XbPKDU8u1r7YJBBNYdpmviMUFPQmT2M-SqreOHECLfrALmO94gOutX027MUwBNIxIMbiM-FMmjemSonX7WABlpGOqPCg10lLHy0I2NcspA6mZj_A2e8HQ58EtE=w2400">
+	</div>
+	<div class="card">
+		<img class="baseimg" src="https://lh3.googleusercontent.com/WSPbP7dVT5GQ7ioDUh2IH-f2CsP-rMCYhxCIslI5PmzOzESqzK9qLxHv65khhtB6E9BlqGyudbpnTuVG3Dc9CfLu8pxKqmKjYwgIui5TZXE8_BMDQWFH7Tam0STtFfTTrUV4S2ozUp8=w2400">
+	</div>
+	<div class="card">
+		<img class="baseimg" src="https://lh3.googleusercontent.com/NUvVUT20FNVjjymqv6SnkVbQoG4V4jFyNkhJ3TaVEgaMC1l-F25Rl3YusfBuJbty_fj2sioSCKI6zzCAws6_HmN8H1J_3R9Z6B8WwYzYbRl0EbCb6DasHY7sd8ASmop7YJ4hWKKLnWk=w2400">
+	</div>
+	<div class="card">
+		<img class="baseimg" src="https://lh3.googleusercontent.com/yX8hoYLZhY2R2VWDA03Xm9d9tOTnSt-c2nVXF59gg0bdeKj8-7bsroxImmsGsZQMzgOdrZ-m-J9XwtOi6iTvGDOZDoCqy2E3_qzHY3acu33Ry6MPUMePxNFxetG6HlBtGi3wJ5o17Ys=w2400">
+	</div>
+</div> -->
+
+</div>
+
+<div class="footer">
+<p>Made with &#10084; by tichnas</p>
+</div>
+
+</body>
+</html>

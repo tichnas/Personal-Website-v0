@@ -1,0 +1,82 @@
+html
+{
+	font-size: 15px;
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #fffcfc;
+	margin: 0px 20%;
+}
+
+.main
+{
+	margin: 130px 0px;
+}
+
+.footer p
+{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 3rem;
+	color: #c73484;
+	margin-top: 7%;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+p, li, th, td
+{
+	font-size: 2rem;
+	color: #64113F;
+	font-family: 'Kalam', cursive;
+}
+
+table, td, th
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table
+{
+	width: 100%;
+}
+
+td, th
+{
+	text-align: center;
+	padding: 4px;
+}
+
+@media screen and (max-width: 600px)
+{
+	html
+	{
+		font-size: 7.6px;
+	}
+	body
+	{
+		margin: 0% 2%;
+	}
+	td, th
+	{
+		padding: 0px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 810px)
+{
+	html
+	{
+		font-size: 11px;
+	}
+	body
+	{
+		margin: 0% 10%;
+	}
+}
